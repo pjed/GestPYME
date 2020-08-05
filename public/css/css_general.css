@@ -1,0 +1,198 @@
+/* 
+    Created on : 24-ene-2020, 10:43:20
+    Author     : daw207
+*/
+body{
+    font-family: 'Playfair Display', serif;
+}
+
+.fondo_barber{
+    width: 225px;
+    height: 650px;
+}
+
+.cerrarSesion{
+    background-image :url('../images/logout.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+
+#info{
+    background-image :url('../images/information.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+/*foto del ticket al crear gasto*/
+.fotoTicket{
+    width: 100px;
+    height: 100px;
+}
+.modal{
+    color:black;
+}
+.logo_chrome{
+    width: 50px;
+    height: 50px;
+}
+
+.imagen_perfil_tamano{
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+}
+.miniatura_perfil{
+    width: 34px; 
+    height: 34px;
+    border: solid 2px black;
+    border-radius: 25px;
+}
+
+.fondo_gris{
+    background-color: #FFFFFF;
+}
+.perfil{
+    /*    background-image: url('../images/user.png');*/
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+.footer{  
+    color:white;
+}
+.panel_informativo{
+    background-color: lightgray;  
+    border-left: 6px solid gray;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.panel_informativo_bd{
+    background-color: lightskyblue;  
+    border-left: 6px solid blue;
+    border-radius: 25px;
+}
+
+.titulo_app{
+    color: white; font-size: 18pt
+}
+
+/*imagenes del footer*/
+.borde_logo{
+    border: black 2px solid; 
+    background-color: white;
+}
+/*logotipo de la pagina*/
+.logotipo{
+    border: black 1px solid; 
+    background-color: white;
+    align-self: center;
+    justify-content: center;;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+/*Movil site vertical */
+@media only screen and (max-width:480px){
+    .titulo_app{
+        color: white; font-size: 14pt
+    }
+    
+    .logotipo{
+        width: 74px;
+        height: 44px;
+    }
+    p.footer{
+        align-self: center;
+        font-size: 8px; 
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    .perfil,.cerrarSesion{
+        background-size: 34px;
+        width: 34px; 
+        height: 34px;
+    }
+    a,label{
+        font-size: 10px;
+    }
+    /*imagenes del footer*/
+    .borde_logo{
+        width: 34px;
+        height: 34px;
+    }
+}
+/*Tablet Apps */
+@media only screen and (min-width:481px) and (max-width:1024px){
+    main{
+        min-height: 80vh;
+    }
+
+    p.footer{
+        align-self: center;
+        font-size: 8px; 
+    }
+    .logotipo{
+        width: 194px;
+        height: 64px;
+    }
+
+    /*imagenes del footer*/
+    .borde_logo{        
+        width: 64px;
+        height: 64px;
+    }
+
+    .perfil,.cerrarSesion{
+        background-size: 34px;
+        width: 34px; 
+        height: 34px;
+    }
+}
+/*Pantalla de escritorio WebSite */
+@media only screen and (min-width:1025px){
+    /*imagenes del footer*/
+    .borde_logo{
+        width: 100px;
+        height: 90px;
+    }
+
+    .logotipo{
+        width: 125px;
+        height: 100px;
+    }
+    .titulo_app{
+        color: white; font-size: 25pt
+    }
+
+    .minh-100 {
+        height: 100vh;
+    }
+
+    main{
+        min-height: 35rem;
+    }
+
+    .perfil,.cerrarSesion{
+        background-size: 34px;
+        width: 34px;
+        height: 34px;
+    } 
+}

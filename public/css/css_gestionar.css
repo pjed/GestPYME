@@ -1,0 +1,74 @@
+/* 
+    Created on : 23-ene-2020, 10:58:07
+    Author     : daw209
+*/
+
+.modal{
+    color:black;
+}
+
+#aniadir{
+    background-image :url('../images/add.png');
+    background-repeat: no-repeat;
+    background-color: white;
+    /*border: none;*/
+}
+.eliminar{
+    background-image :url('../images/delete.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+.editar{
+    background-image: url('../images/edit.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+.buscar{
+    background-image: url('../images/search.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+#confirmar{
+    background-image: url('../images/confirm.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+.sel{ /*para darle un maximo a las select y no sean muy garandes*/
+    max-width: 150px;
+}
+/*foto del ticket al gestionar gastos*/
+.foto_small{
+    width: 50px;
+    height: 50px;
+}
+/*Movil site vertical*/
+@media only screen and (max-width:480px){
+    /*iconos*/
+    #confirmar,.buscar,.editar,.eliminar,#aniadir, #perfil,  #cerrarSesion{    
+        width: 24px;
+        background-size: 24px;
+        height: 24px;
+    }
+}
+/*Tablet Apps */
+@media only screen and (min-width:481px) and (max-width:1024px){
+    /*iconos*/
+    #confirmar,.buscar,.editar,.eliminar,#aniadir, #perfil,#cerrarSesion{    
+        width: 24px;
+        background-size: 24px;
+        height: 24px;
+    }
+}
+/*Pantalla de escritorio WebSite */
+@media only screen and (min-width:1025px){
+    /*iconos*/
+    #confirmar,.buscar,.editar,.eliminar, #perfil,#aniadir, #cerrarSesion{    
+        width: 34px;
+        background-size: 34px;
+        height: 34px;
+    }
+}
